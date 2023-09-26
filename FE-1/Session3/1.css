@@ -1,0 +1,17 @@
+h1{
+    background-color: red;
+    color: cyan;
+}
+li{
+    color: aquamarine;
+    background-color: green;
+}
+body{
+    background-color: orange;
+}
+.green{
+    color: green;
+}
+#white{
+    background-color: white;
+}
