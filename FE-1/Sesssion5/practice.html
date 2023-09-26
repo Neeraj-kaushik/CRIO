@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session5</title>
+    <link rel="stylesheet" href="1.css">
+    <style>
+        .s2{
+            font-size: 12px;
+        }
+        .parent{
+            font-size: 40px;
+        }
+        .childem{
+            font-size: 1.5em;
+        }
+        .childrem{
+            font-size: 1.5rem;
+        }
+        .viewport{
+            width: 50vw;
+            height: 50vh;
+            background-color: cyan;
+            color: white;
+            text-align: center;
+            font-size: 3vmin;
+        }
+        .nav{
+            display: flex;
+            justify-content: center;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <!--Box model in it we have border,margin,padding, content area-->
+    <section class="s1">
+        <p class="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minus autem accusantium quae voluptatibus sed deleniti odit aliquam perspiciatis illum quod quisquam impedit laboriosam, dicta modi eaque laborum sit blanditiis?
+            Unde minus dignissimos repudiandae nihil eius ipsum debitis, earum quas non quibusdam, veritatis accusamus? Facilis, autem quae molestias at error necessitatibus nobis, veritatis maiores perferendis neque rerum velit iusto porro.
+            Ab voluptates magni molestias tempora cumque. Quis a recusandae sapiente repellat repellendus, molestiae voluptatem animi ipsa. Totam architecto eius, consequatur fugiat nobis tenetur neque a? Voluptates in quis repellat a.
+            At sed dolorem et, numquam autem assumenda commodi blanditiis atque. Laudantium itaque ut cum ex vitae, animi maiores necessitatibus in, reiciendis harum est doloribus odit fugiat mollitia voluptas eligendi aperiam.
+        </p>
+    </section>
+    <!--Relative units-->
+    <section class="s2">
+        <div class="parent">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis voluptas, molestias et nobis magni nulla, aut dignissimos, ea voluptatem voluptatibus saepe vel! Commodi totam neque ipsa eligendi. Dignissimos, omnis neque.
+            <div class="childem">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit laboriosam nulla sit voluptas debitis totam labore, amet explicabo rerum nesciunt porro, quasi facere nisi. Eligendi quos asperiores facilis odit quaerat!
+                
+            </div>
+            <div  class="childrem">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem ducimus provident ullam sint minus repudiandae earum libero magnam, molestias, quia quae sit accusamus est iure! Ipsum repellat vel delectus voluptate?
+
+            </div>
+
+        </div>
+    </section>
+    <!-- in this i will try to use the viewport relative units-->
+    <section>
+        <div class="viewport">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem modi nesciunt amet quidem delectus neque laboriosam distinctio, eum natus nulla officiis repellendus quaerat magnam alias, iure aliquam fuga reprehenderit ex!
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum perferendis animi atque cupiditate quibusdam molestias. Hic molestias illum accusantium deleniti, obcaecati doloremque aliquam odit, nihil minima ab, quos dicta modi!
+            Iure esse laboriosam omnis perspiciatis non eaque reiciendis officiis veniam eum quae est deleniti, facere voluptatum mollitia quas saepe dolores ullam adipisci voluptatem odit rerum neque aliquam ut doloribus? Quas.
+        
+        </div>
+    </section>
+    <!--Here i am going to use flex property-->
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">Profile</a>
+    </div>
+</body>
+</html>
