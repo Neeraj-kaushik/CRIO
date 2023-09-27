@@ -1,0 +1,45 @@
+/*nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    align-items:baseline;
+    flex-wrap: wrap;
+    flex-direction:row;
+}
+ul{
+    display: flex;
+    min-width: 20rem;
+    justify-content: space-between;
+}
+ul li{
+    list-style: none;
+}
+.s1{
+    background-color: red;
+    font-size: larger;
+}
+.head{
+    color:aqua;
+    font-size: 2em;
+}
+.d1{
+    color: beige;
+    font-size: 2rem;
+}
+@media (max-width:600px){
+    .s1{
+        background-color: blue;
+        font-size: medium;
+    }
+    .head{
+        color:red;
+        font-size: 0.8em;
+    }
+    .d1{
+        color:yellow;
+        font-size: 0.8rem;
+    }
+}*/
+
