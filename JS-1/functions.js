@@ -4,6 +4,9 @@
 // function(keyword) functionName(parameters){
 //     code
 // }
+// we can call any function using syntax functionName().
+//parameters:- these are values which we define at function declaration
+//arguments:- these are the values which we pass during function calling.
 // Lets try some questions now.
 
 //ques-1: program to check if two number are equal or not.
