@@ -1,0 +1,107 @@
+<html>
+  <head>
+    <title>FE-2</title>
+    <style>
+      .highlight {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="highlight">Session 4!</h1>
+    <div id="news">
+      <h1>Headline!</h1>
+      <p>Martians attack people!</p>
+    </div>
+
+    <ul id="names">
+        <li>John</li>
+        <li>Mary</li>
+        <li>Dora</li>
+        <li>Donny</li>
+      </ul>
+      <div id="facts-list">
+
+        <div id="table-div">
+
+    <script>
+      //console.log(document.getElementsByTagName("h1"));
+      //console.log(document.getElementsByClassName("highlight"));
+      //console.log(document.getElementById("news"));
+      // Now I will try to select the element and manipulate it accordingly
+      console.log(document.getElementById('news').outerHTML)
+
+      /////////Activity -1/////////
+      /*function searchPerson(elem,name){
+        let val=document.getElementById(elem)
+        found=false
+        for(let i=0;i<val.children.length;i++){
+            if(val.children[i].textContent===name){
+                found=true
+            }
+        }
+        if(found){
+            console.log("Found")
+        }else{
+            console.log("Not Found")
+        }
+      }
+      searchPerson("names", "John")
+      searchPerson("names", "Crio.do") */
+
+      // Trying the same problem with different method
+      /*function searchPerson(elem,name){
+        let val=document.querySelectorAll(`#${elem} li`)
+        let found=false
+        val.forEach((ele)=>{
+            if(ele.textContent===name){
+                found=true
+            }            
+        })
+        if(found){
+            console.log("Found")
+        }else{
+            console.log("Not Found")
+        }
+      }
+      searchPerson("names", "John")*/
+
+      //Here I will try the byte 1 questions//
+      // creating new Objects
+      /*let parent=document.getElementById('facts-list')
+      let child=document.createElement('p')
+      child.textContent="innerText property refers to the text inside an element"
+      parent.append(child) */
+      /*function addNewFact(factText){
+        let parent=document.getElementById('facts-list')
+        let child=document.createElement('p')
+        child.textContent=factText
+        parent.appendChild(child)
+      }
+      addNewFact("innerText property refers to the text inside an element")
+      addNewFact("append() or appendChild() methods can add a new child element") */ 
+
+      ///////////Create Dom Objects////////////
+      //let val=document.getElementById("facts-list")
+      //val.innerHTML="<p>Browser creates DOM from HTML content</p><p>Developers can access the DOM using the DOM APIs</p><p>innerHTML property refers to the HTML inside an element</p>"
+
+      ////////Overwrite HTML inside an element////////////////
+      let val=document.getElementById("table-div")
+      let ta=document.createElement("table")
+      ta.setAttribute("border","solid")
+      ta.setAttribute("width","400px")
+      let th=document.createElement("thead")
+      th.innerHTML="<tr><td>Id</td><td>Name</td></tr>"
+      ta.append(th)
+      let tb=document.createElement("tbody")
+      tb.innerHTML="<tr><td>1</td><td>Ramesh</td></tr>"
+      ta.append(tb)
+      val.append(ta)
+
+
+
+      
+
+    </script>
+  </body>
+</html>
