@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Book a Session</h1>
+    <p>Fill in the form below to book virtual session with your doctor</p>
+    <h3>Basic Info</h3>
+    <div width-80>
+        <form action="/FE-2/">
+            <div>
+                <label for="name" class="form-label">Full Name</label>
+            </div>
+            <input type="text" name="name" class="form-control" title="name" placeholder="Enter Your Name">
+            <div>
+                <label for="email" class="form-label">Your Email</label>
+            </div>
+            <input type="email" class="form-control" title="email" placeholder="Enter your Email">
+            <label for="drName">Select the doctor</label>
+            <select name="doctor" class="form-select" id="name">
+                <option value="Asha" selected>Dr. Asha</option>
+                <option value="Path">Dr. S.K. Path</option>
+                <option value="Gulia">Dr. Naveen Gulia</option>
+            </select>
+            <label for="location">Where?</label>
+            <div>
+                <div>
+                <input type="radio" name="location">
+                <label for="meet">Google Meet</label>
+                </div>
+                <div>
+                <input type="radio" name="location">
+                <label for="phone">Phone</label>
+                </div>
+            </div>
+            <label for="time-date">When?</label>
+            <div>
+                <input type="datetime-local" name="time-date" id="dateTime">
+            </div>
+            <input type="submit" value="Confirm Booking" class="btn btn-primary">
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
